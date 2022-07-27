@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Hanuman";
+  src: local("Hanuman"), url(~/static/Hanuman/Hanuman-Regular.ttf) format("truetype");
+}
+
+* {
+  font-family: Hanuman;
+}
+
+:root {
+  --parchment-light: #FCF5E5;
+  --font-color-dark: #4a4a4a;
+}
+
+body {
+  margin: 0;
+  color: var(--font-color-dark);
+}
+
+a {
+  text-decoration: none;
+  color: var(--font-color-dark);
+}
+
+a:hover {
+  text-decoration: underline;
+}
